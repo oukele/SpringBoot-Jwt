@@ -1,0 +1,10 @@
+# jwt 配置
+audience:
+  # 代表这个 JWT 的接收对象，存入 audience
+  clientId: 83cb7c58dcd929442408355d2e455926
+  # 密钥，经过base64 加密，可自行替换
+  base64Secret: ODNjYjdjNThkY2Q5Mjk0NDI0MDgzNTVkMmU0NTU5MjY=
+  # JWT 的签发主体，存入 issuer
+  name: restfulapiuser
+  # 过期时间，时间戳
+  expiressSecond: 120000
